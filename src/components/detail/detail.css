@@ -6,7 +6,7 @@
         display: flex; 
         flex-direction: column;
         align-items: center;
-        gap: 20px;
+        gap: 15px;
         border-bottom: 1px solid #dddddd35;
 
         img{
@@ -20,7 +20,7 @@
         padding: 20px;
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 25px;
 
         .option{
             .title{
@@ -56,8 +56,8 @@
                         gap: 20px;
 
                         img{
-                            width: 40px;
-                            height: 40px;
+                            width: 30px;
+                            height: 30px;
                             border-radius: 5px;
                             object-fit: cover;
                         }
@@ -80,7 +80,7 @@
             }
         }
         button{
-            padding: 10px 20px;
+            padding: 12px;
             background-color: rgba(230,74,105,0.553);
             color: white;
             border: none;
@@ -89,6 +89,11 @@
 
             &:hover{
                 background-color: rgba(220,20,60,0.796);
+            }
+
+            &.logout{
+                padding: 10px;
+                background-color: #1a73e8;
             }
         }
     }
